@@ -62,7 +62,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   :root {
     --text-bottom: 16svh;   /* push text higher */
     --footer-bottom: 70px;  /* avoid Safari bottom bar overlap */
@@ -81,6 +81,7 @@ footer {
   footer{
     font-size: 20px;
 }
+
 
 
 
